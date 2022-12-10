@@ -1,0 +1,21 @@
+{
+    "name": "stankata/yii2-sortable-list",
+    "description": "quick and easy",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "stankata90",
+            "email": "stanislav.vasilev.90@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "stankata90\\sortable\\": ""
+        }
+    }
+}
