@@ -1,5 +1,5 @@
 {
-    "name": "stankata/yii2-sortable-list",
+    "name": "stankata90/yii2-sortable-list",
     "description": "quick and easy",
     "type": "yii2-extension",
     "keywords": ["yii2","extension"],
@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "stankata90\\sortable\\": ""
+            "stankata90\\yii2SortableList\\": ""
         }
     }
 }

@@ -28,4 +28,19 @@ Usage
 Once the extension is installed, simply use it in your code by  :
 
 ```php
-<?= \stankata90\sortable\AutoloadExample::widget(); ?>```
+<?= \stankata90\sortable\AutoloadExample::widget(); ?>
+```
+
+Install without composer
+----
+Add extension in `vendor/yiisoft/extensions.php`
+
+```php
+'stankata90/yii2-sortable-list' => [
+    'name'    => 'stankata90/yii2-sortable-list',
+    'version' => 'dev-master',
+    'alias'   => [
+        '@stankata90/yii2SortableList' => $vendorDir . '/../backend/runtime/tmp-extensions/yii2-sortable-list',
+    ],
+],
+```
