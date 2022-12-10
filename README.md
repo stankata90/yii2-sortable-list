@@ -28,7 +28,19 @@ Usage
 Once the extension is installed, simply use it in your code by  :
 
 ```php
-<?= \stankata90\sortable\AutoloadExample::widget(); ?>
+<?= SortableList::widget( [
+        'sort'                => SortableList::SORT_NESTABLE,
+        'table'               => AdminMenu::tableName(),
+        'url'                 => 'sort-save',
+        'primaryColumn'       => 'id',
+        'primaryParentColumn' => 'id_in',
+        'valueColumn'         => 'name',
+        'sortColumn'          => 'sort',
+        'renderView'          => 'sortable-item',
+        'groupOptions'        => [
+            'class' => 'pt-3',
+        ],
+    ] ); ?>
 ```
 
 Install without composer
